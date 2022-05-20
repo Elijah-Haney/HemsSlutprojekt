@@ -1,26 +1,41 @@
-<!DOCTYPE html> 
-<html lang="en-US"> 
-<head> 
-<Title>Tekken 7 Characters</Title>
-  <link rel="stylesheet" type="text/css" href="../css/hem.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1" description="Info about us" charset = "utf-8"/>
-    </head> 
+<!DOCTYPE html>
+<html lang="en-US">
 
-<body> 
-  <div class="topnav">
-    <a class="active" href="Hem.html">Home</a>
+<head>
+  <Title>Tekken 7 Characters</Title>
+  <link rel="stylesheet" type="text/css" href="../css/hem.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" description="Info about us" charset="utf-8" />
+</head>
+
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="Hem.html">Home</a>
     <a href="../html/Character.html">Dragunov</a>
-    <a href="About.html">About</a>
+    <a class="active" href="About.html">About</a>
     <a href="Feedback.html">Newsletter</a>
     <a href="../html/Viktigt.html">VIKTIG INFORMATION!!!!</a>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a class="active" href="Hem.html">Home</a>
+        <a href="../html/Character.html">Dragunov</a>
+        <a href="About.html">About</a>
+        <a href="Feedback.html">Newsletter</a>
+        <a href="../html/Viktigt.html">VIKTIG INFORMATION!!!!</a>
+      </div>
     </div>
-    <div class="about-section">
+    <script src="../js/Bar.js"></script>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <div class="about-section">
     <h1>About Me Page</h1>
     <p>I am a person who wanted to get an A in webb. I had to make a website so i made the best website ever!!!</p>
     <p>Plz Donate</p>
   </div>
-  
+
   <h2 style="text-align:center">Our Team</h2>
   <div class="row">
     <div class="column">
@@ -35,20 +50,22 @@
         </div>
       </div>
     </div>
-  
+
     <div class="column">
       <div class="card">
         <img src="../img/NotSus.gif" alt="Rick" style="width:100%">
         <div class="containing">
           <h2>Rick Astley</h2>
           <p class="title">Mascott</p>
-          <p>He truly will never give you up, and will never let you down. He will also never run around or desert you. Also expect that he will never make you cry or say goodbye. He never tells lies or hurts you. So a solid 10/10 guy!!</p>
+          <p>He truly will never give you up, and will never let you down. He will also never run around or desert you.
+            Also expect that he will never make you cry or say goodbye. He never tells lies or hurts you. So a solid
+            10/10 guy!!</p>
           <p>RickAstley@gmail.com</p>
           <p><button class="button" href="Viktigt.html">Contact</a></button></p>
         </div>
       </div>
     </div>
-  
+
     <div class="column">
       <div class="card">
         <img src="../img/JackAtFreddy's.jpg" alt="Jack" style="width:100%">
@@ -62,5 +79,6 @@
       </div>
     </div>
   </div>
-  </body> 
-</html> 
+</body>
+
+</html>
