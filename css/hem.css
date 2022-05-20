@@ -55,6 +55,7 @@ body{
   border: solid 5px #333;
   background-color: grey;
   color: white;
+  size: 14px;
 }
 /* Dropdown Button */
 .dropbtn {
