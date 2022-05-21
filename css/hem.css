@@ -1,7 +1,7 @@
 body{
   font-family: 'Smooch Sans', sans-serif;
   margin: 0;
-  background-color: #82f0ff;
+  background-color: #D3D3D3;
 }
 .container {
   position: relative;
@@ -36,8 +36,8 @@ body{
 
 /* Add an active class to highlight the current page */
 .active {
-  background-color: #82f0ff;
-  color: white;
+  background-color: skyblue;
+  color: black;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
